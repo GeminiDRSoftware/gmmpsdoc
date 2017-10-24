@@ -18,21 +18,17 @@ or later, and is available in *Skycat* as a separate menu item after the
 installation of *GMMPS*.
 
 The *WaveMapper* facilitates optimal central wavelength (CWL) choices, such
-that important spectral 
-features do not get lost to detector gaps, boundaries, and noise features. For example,
-the central detector of GMOS-S developed high noise features over most of its area,
-while some regions remain relatively uncontaminated. The *WaveMapper* allows accurate
-CWL adjustment so that lines of interest do not fall into affected areas.
+that important spectral features do not get lost to detector gaps, boundaries,
+and bad columns (GMOS-S).
 
-The following instruments and configurations are currently supported.
-Other Gemini instruments may follow:
+The following configurations are supported for GMOS-N/S:
 
-========== ======================= ============================
-Instrument Mode                    Grating
-========== ======================= ============================
-GMOS-N     Longslit, IFU-R, IFU-2  R150, R400, R831, B600, B1200
-GMOS-S     Longslit, IFU-R, IFU-2  R150, R400, R831, B600, B1200
-========== ======================= ============================
+======================= =============================
+Mode                    Grating
+======================= =============================
+Longslit, IFU-R, IFU-2  R150, R400, R831, B600, B1200
+Longslit, IFU-R, IFU-2  R150, R400, R831, B600, B1200
+======================= =============================
 
 
 User Interface
