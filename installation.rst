@@ -25,7 +25,7 @@ Download
 
 *GMMPS* |version| comes with the source code and example images.
 It is available at
-`http://software.gemini.edu/gmmps/gmmps-1.4.4.tgz <http://software.gemini.edu/gmmps/gmmps-1.4.4.tgz>`_ (140 MB). **This version is mandatory.**
+`http://software.gemini.edu/gmmps/gmmps-1.4.5.tgz <http://software.gemini.edu/gmmps/gmmps-1.4.5.tgz>`_ (136 MB). **This version is mandatory.**
 
 The following instruments are supported:
 
@@ -53,13 +53,11 @@ The following pre-requisites **must be met** before installing *GMMPS*:
 
 * C/C++ compilers and the "make" utilities
 
-* `Skycat v3.1.2 <http://archive.eso.org/cms/tools-documentation/skycat/eso-skycat-download.html>`_ (*GMMPS* is a plugin for Skycat; Skycat has its own dependencies, amongst others `Tcl/Tk 8.4 <https://www.tcl.tk/software/tcltk/8.4.html>`_)
+* `Skycat v3.1.2 (or v3.1.3) <http://archive.eso.org/cms/tools-documentation/skycat/eso-skycat-download.html>`_ (*GMMPS* is a plugin for Skycat; Skycat has its own dependencies, amongst others `Tcl/Tk 8.4 <https://www.tcl.tk/software/tcltk/8.4.html>`_. Note that for recent Debian/Ubuntu versions Skycat is available from the respective repositories including all dependencies.)
 * `Gemini IRAF <http://www.gemini.edu/sciops/data-and-results/processing-software?q=node/11823>`_ (to create the input object tables and, if necessary, pseudo-images)
 * `awk <https://www.gnu.org/software/gawk/manual/gawk.html>`_ and `wget <https://www.gnu.org/software/wget/>`_ must be found in your PATH variable
-
-The following pre-requisites **are recommended** as they let *GMMPS* create and display the throughput curves. However, they are not needed to create the masks. They should be available in pre-compiled form for most Linux / MacOS distributions.
-
 * `Standard TCL library (tcllib) <http://www.tcl.tk/software/tcllib/>`_
+* python-tk
 * python (v2)
 * `matplotlib <http://matplotlib.org/>`_
 
