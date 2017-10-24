@@ -98,11 +98,6 @@ Various overlays may be toggled on/off in the image window:
   a :ref:`pseudo-image <pseudo_image_label>` (which may have its *CRPIX1/2* at wildly 
   different locations).
 
-* **Overlay Detectors:** Overlays the slit placement areas
-  of other instruments than the one the mask was designed for. This is mostly meant for
-  reference and historic purposes, and is useful e.g. if you consider following up
-  the current GMOS mask with a future F2 mask.
-
   .. index:: Central wavelength; optimization
 * **CWL:** Allows you to find an optimal value for the CWL, repositioning the spectra 
   on the detector array. For example, you can fine-tune the CWL to avoid some emission
