@@ -220,12 +220,6 @@ Various overlays may be toggled on/off in the image window:
 
 * **Grayscale:** Toggles between a grayscale image and the native *Skycat* color scheme.
 
-* **Overlay Detectors:** Overlays the slit placement areas for instruments other than the
-  one you are designing the mask for. This includes previous GMOS layouts and is mostly
-  meant for reference and historic purposes. It can be useful if you e.g. consider following
-  up the current GMOS mask with a future F2 mask. Note that masks will always be designed
-  for the current instrument configuration, not for any of the gray overlays shown here.
-
 
 Launching the Mask Design
 =========================
