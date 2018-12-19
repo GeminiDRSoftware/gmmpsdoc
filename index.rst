@@ -8,7 +8,7 @@ GMMPS |version|: Documentation
 ==============================
 
 :Last update: |today|
-:Latest changes: `ChangeLog <http://www.gemini.edu/sciops/instruments/gmos/gmmps/ChangeLog>`_
+:Latest changes: `ChangeLog <http://software.gemini.edu/gmmps/ChangeLog>`_
 
 About GMMPS
 ===========
@@ -55,7 +55,7 @@ Dione Scheltus and Bryan Miller.
 Software (`VMMPS <https://www.eso.org/sci/observing/phase2/SMGuidelines/VMMPS.html>`_), after agreement with the European Southern Observatory.
 *VMMPS* was developed originally by Dario Bottini at the Istituto di
 Fisica Cosmica G.Occhialini - CNR, Italy. It has been modified by
-Jennifer Dunn, Craig Allen, Dustin Fennell, Bryan Miller and Mischa 
-Schirmer to work with Gemini Instrumentation.
+Jennifer Dunn, Craig Allen, Dustin Fennell, Bryan Miller, Mischa
+Schirmer, and Michael Hoenig to work with Gemini instrumentation.
 
 Current *GMMPS* support: Bryan Miller
