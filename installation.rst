@@ -24,8 +24,8 @@ Download
 ========
 
 *GMMPS* |version| comes with the source code and example images. The latest version is recommended. At least version 1.4.5 is required.
-It is available at
-`http://software.gemini.edu/gmmps/gmmps-1.5.2.tgz <http://software.gemini.edu/gmmps/gmmps-1.5.2.tgz>`_ (155 MB).
+It is available from
+`here <https://noirlab.edu/public/media/archives/applications/zip/app011.zip>`_ (155 MB).
 
 The following instruments are supported:
 
@@ -64,7 +64,7 @@ pseudo-images.
 Installation
 ============
 
-Unless there are known compilation issues for your operating system you should first try to compile *GMMPS* from source. This helps ensure compatibility with your system and avoids Gatekeeper problems on macOS 10.15 (Catalina) and 11.0 (Big Sur). There are known problems with compiling *GMMPS* on Ubuntu 17/18, and Fedora 28 and macOS 11.0. Please use the compatible binary releases on these operating systems.
+Unless there are known compilation issues for your operating system you should first try to compile *GMMPS* from source. This helps ensure compatibility with your system and avoids Gatekeeper problems on macOS 10.15 (Catalina) and newer. There are known problems with compiling *GMMPS* on Ubuntu 17/18, and Fedora 28 and macOS 11.0. Please use the compatible binary releases on these operating systems.
 
 To compile *GMMPS* from raw sources, do: ::
 
@@ -74,18 +74,16 @@ To compile *GMMPS* from raw sources, do: ::
 
 Finally, put /some_path/gmmps-<version>/bin/gmmps in your path.
 
-Pre-compiled versions of *GMMPS* are available for macOS and a few standard flavors of Linux. The compatibility list is not 
-exhaustive, it only lists systems that have been tested.
+Pre-compiled versions of *GMMPS* are available for macOS and a few standard flavors of Linux from the 
+`NOIRLab web site <https://noirlab.edu/public/products/gmmps/>`_. The compatibility list is not exhaustive, it only lists systems that have been tested.
 
-======================================================================================  =============== =========================
-File                                                                                    Compiled on     Compatible With
-======================================================================================  =============== =========================
-`gmmps-1.5.2_rh5_32.tgz <http://software.gemini.edu/gmmps/gmmps-1.5.2_rh5_32.tgz>`_     CentOS 5
-`gmmps-1.5.2_rh6_64.tgz <http://software.gemini.edu/gmmps/gmmps-1.5.2_rh6_64.tgz>`_     CentOS 6
-`gmmps-1.5.2_rh7_64.tgz <http://software.gemini.edu/gmmps/gmmps-1.5.2_rh7_64.tgz>`_     CentOS 7        Ubuntu 17/18, Fedora 28
-`gmmps-1.5.2_ub16_64.tgz <http://software.gemini.edu/gmmps/gmmps-1.5.2_ub16_64.tgz>`_   Ubuntu 16.04    Ubuntu 17/18
-`gmmps-1.5.2_macos.tgz <http://software.gemini.edu/gmmps/gmmps-1.5.2_macos.tgz>`_       macOS 10.13.6   macOS 10.14/11.0
-======================================================================================  =============== =========================
+==========================  =============== =========================
+File                        Compiled on     Compatible With
+==========================  =============== =========================
+gmmps-1.5.2_rh7_64.tgz      CentOS 7        Ubuntu 17/22
+gmmps-1.5.2_ub16_64.tgz     Ubuntu 16.04    Ubuntu 17/22
+gmmps-1.5.2_macos.tgz       macOS 10.13.6   macOS 10.14/14
+==========================  =============== =========================
 
 Untar the distribution file and then::
 
