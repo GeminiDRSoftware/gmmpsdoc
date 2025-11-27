@@ -94,7 +94,7 @@ to configure the paths in the *GMMPS* startup script (./bin/gmmps).
 
 If you install the pre-compiled Mac binaries on macOS 10.15 (Catalina) or 11.0 (Big Sur) then the first time that you run it you will need to give each executable permission to run. You can do this by opening System Preferences and selecting Security & Privacy -> General and click on Open Anyway. Finally, click Open in the next dialog. This has to be done multiple times. All this can be avoided by compiling from source (see above) or by opening System Preferences, selecting Security & Privacy, Privacy, and then Developer Tools from the left-hand list. Finally, click on the padlock to allow changes and click the checkbox next to Terminal icon to allow execution of command line applications that do not meet the security policies.
 
-If you are not able to compile or run *GMMPS* on a machine, then one alternative is to run it in a compatible operating system within a virtual machine. Gemini has one Linux virtual machine available for running *GMMPS* when a local installation is not possible. Please submit a `helpdesk ticket <https://www.gemini.edu/sciops/helpdesk/submit-general-helpdesk-request>`_ to request a temporary account on this machine.
+.. If you are not able to compile or run *GMMPS* on a machine, then one alternative is to run it in a compatible operating system within a virtual machine. Gemini has one Linux virtual machine available for running *GMMPS* when a local installation is not possible. Please submit a `helpdesk ticket <https://www.gemini.edu/sciops/helpdesk/submit-general-helpdesk-request>`_ to request a temporary account on this machine.
 
 .. index:: Installation; macOS
 
