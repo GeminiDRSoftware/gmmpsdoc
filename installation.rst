@@ -82,7 +82,8 @@ File                        Compiled on     Compatible With
 ==========================  =============== =========================
 gmmps-1.5.2_rh7_64.tgz      CentOS 7        Ubuntu 17/22
 gmmps-1.5.2_ub16_64.tgz     Ubuntu 16.04    Ubuntu 17/22
-gmmps-1.5.2_macos.tgz       macOS 10.13.6   macOS 10.14/14
+gmmps-1.5.2_macos.tgz       macOS 10.13.6   macOS 10.14 - 13.5
+gmmps-1.5.2_macos15.tgz     macOS 10.15     macOS 11 - 13.5
 ==========================  =============== =========================
 
 Untar the distribution file and then::
